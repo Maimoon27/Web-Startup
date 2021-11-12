@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(Singn.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+.sign-up-form
+{
+    width:300px;
+    box-shadow: 003px 0 rgba(0,0,0,0.3);
+    background:transparent;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 8% auto 50px;
+    text-align: center;
+}
+.sign-up-form h1
+{
+    color: #ae23ca;
+    margin-bottom: 30px;
+}
+.input-box
+{
+    border-radius: 30px;
+    padding: 10px ;
+    margin: 10px -10px;
+    width: 100%;
+    border: 1px solid #999;
+    outline:green;
+}
+button
+{
+    columns: #fff;
+    width: 100%;
+    padding: 10px ;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn
+{
+    background-color: #4dd6ee;
+}
+.google-btn
+{
+    background-color: rgb(255, 145, 0);
+}
+a{
+    text-decoration: none;
+    
+    color: gainsboro;
+}
+hr{
+    margin-top: 20px;
+    width: 30px;
+}
+.or
+{
+background:white;
+width: 30px;
+border-radius: 20px;
+margin:-19px auto 10px ;
+}
+img 
+{
+    width:70px;
+}
