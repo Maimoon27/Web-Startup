@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="weather.css" />
+        <title>Document</title>
+       </head>
+       <body>
+           <div id ="main" class="main">
+               <div class="form-main">
+                   <h1>Weather App</h1>
+                   <h2>Lets look up some places</h2>
+                   <form onsubmit="event.preventDefault()">
+                    <input
+                    type="text"
+                    name="input"
+                    id="input"
+                    placeholder="Enter the location"/>
+                    <input type="submit" id="submit" value="search"/>
+                </form>
+           </div>
+           <div id="main-body" class="main-body">
+             </div>
+            </div>
+            <script src="./weather.js"></script>
+       </body>
+</html>

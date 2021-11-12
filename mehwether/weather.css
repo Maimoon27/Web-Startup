@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* This is the main div */
+.main{
+  background-image: url('warm.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main::before{
+
+    content: '';
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+
+/* This is the styling for the main body of the div*/
+.form-main {
+    z-index: 20;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.form-main input[type="text"]{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.form-main input[type = "submit"]{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.main-body{
+    z-index: 20;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.main-body table{
+    display: block;
+}
+.info p{
+    text-align: center;
+}
